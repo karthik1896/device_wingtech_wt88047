@@ -113,6 +113,12 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8916
 TARGET_LIBINIT_MSM8916_DEFINES_FILE := $(DEVICE_PATH)/init/init_wt88047.cpp
 
+#Kernel ToolChain
+ifneq ($(wildcard $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-gnueabi),)
+  KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-gnueabi/bin
+  KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabi-
+endif
+
 # Kernel
 BOARD_DTBTOOL_ARGS := -2
 BOARD_KERNEL_IMAGE_NAME := Image
