@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_wt88047.mk
+    $(LOCAL_DIR)/bootleg_wt88047.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_wt88047-user \
-    lineage_wt88047-userdebug \
-    lineage_wt88047-eng
+    bootleg_wt88047-user \
+    bootleg_wt88047-userdebug \
+    bootleg_wt88047-eng
