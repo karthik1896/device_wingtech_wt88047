@@ -17,6 +17,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_wt88047.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_wt88047-user \
     havoc_wt88047-userdebug \
-    havoc_wt88047-eng
