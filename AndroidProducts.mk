@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_wt88047.mk
+    $(LOCAL_DIR)/xtended_wt88047.mk
 
 COMMON_LUNCH_CHOICES := \
-    bootleg_wt88047-user \
-    bootleg_wt88047-userdebug \
-    bootleg_wt88047-eng
+    xtended_wt88047-user \
+    xtended_wt88047-userdebug \
+    xtended_wt88047-eng
