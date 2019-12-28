@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_wt88047.mk
+    $(LOCAL_DIR)/colt_wt88047.mk
 
 COMMON_LUNCH_CHOICES := \
-    bootleg_wt88047-user \
-    bootleg_wt88047-userdebug \
-    bootleg_wt88047-eng
+    colt_wt88047-user \
+    colt_wt88047-userdebug \
+    colt_wt88047-eng
